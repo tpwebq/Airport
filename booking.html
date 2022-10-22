@@ -16,38 +16,38 @@
                 <a href="index.html" class="navbar-brand">
                     <img class="navbar-logo" src="img/navbar_logo.png" alt="logo"/>
                 </a>
-                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#main-nav">
+                <button class="navbar-toggler bg-danger" data-bs-toggle="collapse" data-bs-target="#main-nav">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="main-nav">
-                    <ul class="navbar-nav ms-auto text-end text-uppercase">
+                    <ul class="navbar-nav ms-auto text-end text-uppercase text-shadow fw-bold">
                         <li class="nav-item">
-                            <a href="index.html" class="nav-link">Home</a>
+                            <a href="index.html" class="nav-link text-white">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a href="flights.html" class="nav-link">Flights</a>
+                            <a href="flights.html" class="nav-link text-white">Flights</a>
                         </li>
                         <li class="nav-item">
-                            <a href="destinations.html" class="nav-link">Destinations</a>
+                            <a href="destinations.html" class="nav-link text-white">Destinations</a>
                         </li>
                         <li class="nav-item">
-                            <a href="booking.html" class="nav-link">Booking</a>
+                            <a href="booking.html" class="nav-link text-white">Booking</a>
                         </li>
                         <li class="nav-item">
-                            <a href="contact.html" class="nav-link">Contact</a>
+                            <a href="contact.html" class="nav-link text-white">Contact</a>
                         </li>
                     </ul>
                 </div>
             </nav>
         </header>
-        <section class="booking-s1 minh-25vh d-none d-md-block">
+        <section class="booking-s1 minh-25vh d-none d-md-block border-bottom border-danger">
         </section>
-        <section class="booking-s2 minh-75vh container-fluid d-flex align-items-start py-5">
+        <section class="booking-s2 minh-100vh container-fluid d-flex align-items-start py-5">
             <div class="row w-100 mx-0 mt-5">
                 <div class="col-12 col-md-6">
-                    <div class="card shadow mb-3" id="flight-details">
-                        <div class="card-header bg-light">
-                            <h6 class="text-secondary mb-0 d-inline-block">
+                    <div class="card shadow mb-3 border-danger" id="flight-details">
+                        <div class="card-header bg-danger">
+                            <h6 class="text-white mb-0 d-inline-block">
                                 Flight details
                             </h6>
                         </div>
@@ -73,15 +73,15 @@
                                 <input type="text" class="form-control border-start-0 text-end" readonly/>
                             </div> 
                             <div class="mx-2 text-end border-top pt-3 d-block d-md-none">
-                                <a href="#personal-data" class="btn btn-sm btn-secondary rounded-pill">Next</a>
+                                <a href="#personal-data" class="btn btn-sm btn-danger rounded-pill">Next</a>
                             </div>        
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-6">                    
-                    <div class="card shadow mb-3" id="personal-data">
-                        <div class="card-header bg-light">
-                            <h6 class="text-secondary mb-0 d-inline-block">
+                    <div class="card shadow mb-3 border-danger" id="personal-data">
+                        <div class="card-header bg-danger">
+                            <h6 class="text-white mb-0 d-inline-block">
                                 Personal data
                             </h6>
                         </div>
@@ -106,7 +106,7 @@
                                 <label class="input-group-text bg-white">Address:</label>
                                 <input type="text" class="form-control border-start-0 text-end"/>
                             </div> 
-                            <h6 class="mt-3 mb-2 text-secondary border-top pt-2">
+                            <h6 class="mt-3 mb-2 text-danger border-top border-danger pt-2">
                                 Account data:
                             </h6> 
                             <div class="input-group input-group-sm mb-2">
@@ -122,22 +122,22 @@
                                 <input type="email" class="form-control border-start-0 text-end"/>
                             </div>   
                             <div class="mx-2 text-end border-top pt-3 d-block d-md-none">
-                                <a href="#flight-details" class="btn btn-sm btn-outline-secondary rounded-pill">Previous</a>
-                                <a href="#payment-data" class="btn btn-sm btn-secondary rounded-pill">Next</a>
+                                <a href="#flight-details" class="btn btn-sm btn-outline-danger rounded-pill">Previous</a>
+                                <a href="#payment-data" class="btn btn-sm btn-danger rounded-pill">Next</a>
                             </div>   
                         </div>
                     </div>
                 </div>
                 <div class="col-12">                    
-                    <div class="card shadow mb-3" id="payment-data">
-                        <div class="card-header bg-light">
-                            <h6 class="text-secondary mb-0 d-inline-block">
+                    <div class="card shadow mb-3 border-danger" id="payment-data">
+                        <div class="card-header bg-danger">
+                            <h6 class="text-white mb-0 d-inline-block">
                                 Payment data
                             </h6>
                         </div>
                         <div class="card-body collapse show row">
                             <div class="col-12 col-md-4 col-lg-4">
-                                <h6 class="mb-2 text-secondary border-bottom pb-2">
+                                <h6 class="mb-2 text-danger border-bottom border-danger pb-2">
                                     Pay with:
                                 </h6> 
                                 <div class="input-group input-group-sm mb-2 ps-3 small">                                
@@ -160,7 +160,7 @@
                                 </div> 
                             </div>
                             <div class="col-12 col-md-8 col-lg-4">
-                                <h6 class="mb-2 text-secondary border-bottom pb-2">
+                                <h6 class="mb-2 text-danger border-bottom border-danger pb-2">
                                     Payment details:
                                 </h6> 
                                 <div class="input-group input-group-sm mb-2">
@@ -174,19 +174,19 @@
                             </div>  
                             <div class="col-12 col-lg-4">
                                 <div class="mx-2 text-end pt-3">
-                                    <a href="#personal-data" class="btn btn-sm btn-outline-secondary rounded-pill d-inline-block d-md-none">Previous</a>
-                                    <button href="#" class="btn btn-sm btn-secondary rounded-pill">Continue</button>
+                                    <a href="#personal-data" class="btn btn-sm btn-outline-danger rounded-pill d-inline-block d-md-none">Previous</a>
+                                    <button href="#" class="btn btn-sm btn-danger rounded-pill">Continue</button>
                                 </div>   
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>        
-        <footer class="container-fluid">
+        </section>         
+        <footer class="container-fluid border-top border-dark bg-danger d-flex align-items-center py-2">
             <div class="row w-100 mx-0 text-center">
                 <div class="col-12 small">
-                    <p class="small text-dark">
+                    <p class="small text-dark mb-0">
                         Copyright &copy; 2022. All rights reserved. 
                         <a href="privacy.html" class="text-decoration-none text-dark">
                             Privacy policy
