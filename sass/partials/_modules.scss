@@ -1,6 +1,21 @@
 @include aoa-bg-series($img__classes,$img__aoa,0,"center","cover","scroll");
+@media all and (max-width:991px), all and (orientation:portrait){
+    @include aoa-bg-series($img__classes--v,$img__aoa--v,0,"center","cover","scroll");
 
-
+}
+*{
+    font-family: "Raleway";
+}
+.contact{
+    &-s2{
+        background-position-x: right!important;
+    }
+}
+.index{
+    &-s1{
+        background-position-x: right!important;
+    }
+}
 .navbar{
     &-logo{
         height: $logo__height;
@@ -32,8 +47,8 @@ textarea{
     .navbar{
         &-nav{
             backdrop-filter: blur(5px);
-            background-color: #fff;
-            border: 1px solid #999;
+            background-color: #dc3545;
+            border: 1px solid #222;
             opacity: 0.8;
             padding: 10px;
         }

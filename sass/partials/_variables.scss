@@ -1,15 +1,59 @@
 $prefix: "../";
 $footer-height: 33px;
+$img__booking: 
+    $prefix+"img/booking/booking-s1.jpg",
+    $prefix+"img/booking/booking-s2.jpg";
+$img__booking--v: 
+    $prefix+"img/booking/booking-s1.jpg",
+    $prefix+"img/booking/booking-s2v.jpg";
 $img__comingsoon: $prefix+"img/comingsoon.jpg";
+$img__contact: 
+    $prefix+"img/contact/contact-s1.jpg",
+    $prefix+"img/contact/contact-s2.jpg",
+    $prefix+"img/contact/contact-s3.jpg";
+$img__destinations: 
+    $prefix+"img/destinations/destinations-s1.jpg",
+    $prefix+"img/destinations/destinations-s2.jpg";
+$img__destinations--v: 
+    $prefix+"img/destinations/destinations-s1.jpg",
+    $prefix+"img/destinations/destinations-s2v.jpg";
 $img__error: $prefix+"img/error.jpg";
+$img__flights: 
+    $prefix+"img/flights/flights-s1.jpg",
+    $prefix+"img/flights/flights-s2.jpg";
+$img__flights--v: 
+    $prefix+"img/flights/flights-s1.jpg",
+    $prefix+"img/flights/flights-s2v.jpg";
+$img__index: $prefix+"img/index/index-s1.jpg";
+$img__index--v: $prefix+"img/index/index-s1v.jpg";
 $img__privacy: $prefix+"img/privacy.jpg";
 $img__aoa:
+    $img__booking,
     $img__comingsoon,
+    $img__contact,
+    $img__destinations,
     $img__error,
+    $img__flights,
+    $img__index,
     $img__privacy;
+$img__aoa--v:
+    $img__booking--v,
+    $img__destinations--v,
+    $img__flights--v,
+    $img__index--v;
 $img__classes:
+    "booking",
     "comingsoon",
+    "contact",
+    "destinations",
     "error",
+    "flights",
+    "index",
     "privacy";
+$img__classes--v:
+    "booking",
+    "destinations",
+    "flights",
+    "index";
 $logo__height: 40px;
 $text__shadow: 1px 1px 3px #333;

@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/Raleway-VariableFont_wght.ttf");
+}
 /* line 2, ../sass/partials/_minh.scss */
 .minh-auto {
   min-height: auto;
@@ -291,9 +295,72 @@ body, html {
 }
 
 /* line 31, ../sass/partials/_mixins.scss */
+.booking-s1 {
+  background-attachment: scroll;
+  background-image: url(../img/booking/booking-s1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.booking-s2 {
+  background-attachment: scroll;
+  background-image: url(../img/booking/booking-s2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
 .comingsoon-s1 {
   background-attachment: scroll;
   background-image: url(../img/comingsoon.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.contact-s1 {
+  background-attachment: scroll;
+  background-image: url(../img/contact/contact-s1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.contact-s2 {
+  background-attachment: scroll;
+  background-image: url(../img/contact/contact-s2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.contact-s3 {
+  background-attachment: scroll;
+  background-image: url(../img/contact/contact-s3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.destinations-s1 {
+  background-attachment: scroll;
+  background-image: url(../img/destinations/destinations-s1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.destinations-s2 {
+  background-attachment: scroll;
+  background-image: url(../img/destinations/destinations-s2.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -309,6 +376,33 @@ body, html {
 }
 
 /* line 31, ../sass/partials/_mixins.scss */
+.flights-s1 {
+  background-attachment: scroll;
+  background-image: url(../img/flights/flights-s1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.flights-s2 {
+  background-attachment: scroll;
+  background-image: url(../img/flights/flights-s2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.index-s1 {
+  background-attachment: scroll;
+  background-image: url(../img/index/index-s1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
 .privacy-s1 {
   background-attachment: scroll;
   background-image: url(../img/privacy.jpg);
@@ -317,42 +411,121 @@ body, html {
   background-size: cover;
 }
 
-/* line 5, ../sass/partials/_modules.scss */
-.navbar-logo {
-  height: 40px;
+@media all and (max-width: 991px), all and (orientation: portrait) {
+  /* line 31, ../sass/partials/_mixins.scss */
+  .booking-s1 {
+    background-attachment: scroll;
+    background-image: url(../img/booking/booking-s1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  /* line 31, ../sass/partials/_mixins.scss */
+  .booking-s2 {
+    background-attachment: scroll;
+    background-image: url(../img/booking/booking-s2v.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  /* line 31, ../sass/partials/_mixins.scss */
+  .destinations-s1 {
+    background-attachment: scroll;
+    background-image: url(../img/destinations/destinations-s1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  /* line 31, ../sass/partials/_mixins.scss */
+  .destinations-s2 {
+    background-attachment: scroll;
+    background-image: url(../img/destinations/destinations-s2v.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  /* line 31, ../sass/partials/_mixins.scss */
+  .flights-s1 {
+    background-attachment: scroll;
+    background-image: url(../img/flights/flights-s1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  /* line 31, ../sass/partials/_mixins.scss */
+  .flights-s2 {
+    background-attachment: scroll;
+    background-image: url(../img/flights/flights-s2v.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  /* line 31, ../sass/partials/_mixins.scss */
+  .index-s1 {
+    background-attachment: scroll;
+    background-image: url(../img/index/index-s1v.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+/* line 6, ../sass/partials/_modules.scss */
+* {
+  font-family: "Raleway";
 }
 
 /* line 10, ../sass/partials/_modules.scss */
-.privacy-s1 {
+.contact-s2 {
   background-position-x: right !important;
 }
 
 /* line 15, ../sass/partials/_modules.scss */
+.index-s1 {
+  background-position-x: right !important;
+}
+
+/* line 20, ../sass/partials/_modules.scss */
+.navbar-logo {
+  height: 40px;
+}
+
+/* line 25, ../sass/partials/_modules.scss */
+.privacy-s1 {
+  background-position-x: right !important;
+}
+
+/* line 30, ../sass/partials/_modules.scss */
 .rotate-obj.collapsed .fa {
   transform: rotate(180deg);
 }
 
-/* line 20, ../sass/partials/_modules.scss */
+/* line 35, ../sass/partials/_modules.scss */
 .text-shadow {
   text-shadow: 1px 1px 3px #333;
 }
 
-/* line 24, ../sass/partials/_modules.scss */
+/* line 39, ../sass/partials/_modules.scss */
 header {
   z-index: 10;
 }
 
-/* line 27, ../sass/partials/_modules.scss */
+/* line 42, ../sass/partials/_modules.scss */
 textarea {
   resize: none;
 }
 
 @media all and (max-width: 767px) {
-  /* line 33, ../sass/partials/_modules.scss */
+  /* line 48, ../sass/partials/_modules.scss */
   .navbar-nav {
     backdrop-filter: blur(5px);
-    background-color: #fff;
-    border: 1px solid #999;
+    background-color: #dc3545;
+    border: 1px solid #222;
     opacity: 0.8;
     padding: 10px;
   }
